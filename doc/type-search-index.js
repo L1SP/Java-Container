@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.serov.lab1","l":"Container"},{"p":"com.serov.lab1","l":"ContainerUnitTests"}];updateSearchResults();
