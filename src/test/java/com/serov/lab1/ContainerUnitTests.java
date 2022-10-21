@@ -136,10 +136,10 @@ public class ContainerUnitTests {
      */
     @Test
     public void testResizingContainer() {
-        for (int i = 0; i <= 10; i++) {
+        for (int i = 0; i <= Container.DEFAULT_SIZE; i++) {
             container.insertElement(String.valueOf(i));
         }
-        for (int i = 0; i <= 10; i++) {
+        for (int i = 0; i <= Container.DEFAULT_SIZE; i++) {
             assertEquals(String.valueOf(i), container.getElementAt(i));
         }
     }
